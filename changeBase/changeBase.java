@@ -17,7 +17,7 @@ public class changeBase
                 run = false;
                 break;
             }
-            System.out.println(Integer.toString(Integer.parseInt(num, startBase), endBase));
+            System.out.println();
         }
         System.out.println("Thanks for playing!");
         
