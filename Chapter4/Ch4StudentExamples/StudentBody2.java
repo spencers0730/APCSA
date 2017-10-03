@@ -25,7 +25,7 @@ public class StudentBody2{
        *    and keeps the higher of the two attempts. Marsha's new score is a random
        *    integer between 70 and 80. Print the new score, then set the higher of
        *    the two scores.
-       * Print Marsha's new average accurate tpo two decimal places.
+       * Print Marsha's new average accurate to two decimal places.
        */
       
       

@@ -30,48 +30,49 @@ public class BankingTesterAfterExercise1
 {
     private static NumberFormat fmt = NumberFormat.getCurrencyInstance();
 
-    
     //-----------------------------------------------------------------
-   //  Creates some bank accounts and requests various services.
-   //-----------------------------------------------------------------
-   public static void main ()
-   {
-      
-      Account acct1 = new Account ("Bill Gates", 72354, 100000);
-      Account acct2 = new Account ("Barack Obama", 69713, 5000);
-      Account acct3 = new Account ("Hillary Clinton", 93757, 759.32);
+    //  Creates some bank accounts and requests various services.
+    //-----------------------------------------------------------------
+    public static void main ()
+    {
 
-      acct1.deposit (25.85);
+        Account acct1 = new Account ("Bill Gates", 72354, 100000);
+        Account acct2 = new Account ("Barack Obama", 69713, 5000);
+        Account acct3 = new Account ("Hillary Clinton", 93757, 759.32);
 
-      double obamaBalance = acct2.deposit (500.00);
-      System.out.println ("Obama balance after deposit: " +
-                          obamaBalance);
+        acct1.deposit (25.85);
 
-      System.out.println ("Obama balance after withdrawal: " + 
-                          acct2.withdraw (430.75, 1.50));
+        double obamaBalance = acct2.deposit (500.00);
+        System.out.println ("Obama balance after deposit: " +
+            obamaBalance);
 
-      acct3.withdraw (800.00, 0.0);  // exceeds balance
+        System.out.println ("Obama balance after withdrawal: " + 
+            acct2.withdraw (430.75, 1.50));
 
-      acct1.addInterest();
-      acct2.addInterest();
-      acct3.addInterest();
+        acct3.withdraw (800.00, 0.0);  // exceeds balance
 
-      System.out.println ();
-      System.out.println (acct1);
-      System.out.println (acct2);
-      System.out.println (acct3);
-      System.out.println ();
-      
-      if(acct3.transfer(acct1, 50000))
-      System.out.println("After transferring $50,000, Hillary Clinton's balance is now "+fmt.format(acct3.getBalance())
-                +"\nand Bill Gates' balance is now "+fmt.format(acct1.getBalance())+".\n");
-      else System.out.println("You cannot withdraw $50,000 from Bill Gates' account \nsince his balance is"
-                +" only "+fmt.format(acct1.getBalance())+".\n");
-                
-      if(acct2.transfer(acct1, 100000))
-      System.out.println("After transferring $100,000, Barack Obama's balance is now "+acct2.getBalance()
-                +"\nand Bill Gates' balance is now "+fmt.format(acct1.getBalance())+".\n");
-      else System.out.println("You cannot withdraw $100,000 from Bill Gates' account \nsince his balance is"
-                +" only "+fmt.format(acct1.getBalance())+".\n");
-   }
+        acct1.addInterest();
+        acct2.addInterest();
+        acct3.addInterest();
+
+        System.out.println ();
+        System.out.println (acct1);
+        System.out.println (acct2);
+        System.out.println (acct3);
+        System.out.println ();
+
+        acct3.transfer(acct1, 50000);
+        // if(acct3.transfer(acct1, 50000))
+        // System.out.println("After transferring $50,000, Hillary Clinton's balance is now "+fmt.format(acct3.getBalance())
+        // +"\nand Bill Gates' balance is now "+fmt.format(acct1.getBalance())+".\n");
+        // else System.out.println("You cannot withdraw $50,000 from Bill Gates' account \nsince his balance is"
+        // +" only "+fmt.format(acct1.getBalance())+".\n");
+        System.out.println();
+        acct2.transfer(acct1, 100000);
+        // if(acct2.transfer(acct1, 100000))
+        // System.out.println("After transferring $100,000, Barack Obama's balance is now "+acct2.getBalance()
+        // +"\nand Bill Gates' balance is now "+fmt.format(acct1.getBalance())+".\n");
+        // else System.out.println("You cannot withdraw $100,000 from Bill Gates' account \nsince his balance is"
+        // +" only "+fmt.format(acct1.getBalance())+".\n");
+    }
 }

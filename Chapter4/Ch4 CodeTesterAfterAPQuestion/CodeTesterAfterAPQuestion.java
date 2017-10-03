@@ -13,8 +13,7 @@ public class CodeTesterAfterAPQuestion
         
         code.hide(2,7);
         System.out.println("\n"+code.getCode());
-        code.recover(5,9);
-        
+        code.recover(5,9);    
         System.out.println("\n"+code.getCode());
         code.hide(3,14);
         System.out.println("\n"+code.getCode());
