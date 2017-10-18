@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=WordToMass
-comment1.params=
-comment1.target=void\ main()
-comment2.params=str
-comment2.target=int\ stringMass(java.lang.String)
-comment3.params=ints\ strs
-comment3.target=void\ sort(int[],\ java.lang.String[])
-numComments=4
