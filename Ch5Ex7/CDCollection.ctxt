@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=n1\ n2\ c1
-comment0.target=CDCollection(java.lang.String,\ java.lang.String,\ double)
-comment1.params=c1
-comment1.target=java.lang.String\ getArtist(CDCollection)
-comment2.params=
-comment2.target=int\ getCount()
-numComments=3
