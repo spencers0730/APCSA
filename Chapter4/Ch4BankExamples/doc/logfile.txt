@@ -1,0 +1,40 @@
+Class documentation
+<---- javadoc command: ---->
+/Applications/BlueJ.app/Contents/JDK/Home/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+/Applications/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/Applications/BlueJ.app/Contents/Resources/Java/junit-4.11.jar:/Applications/BlueJ.app/Contents/Resources/Java/hamcrest-core-1.3.jar:/Applications/BlueJ.app/Contents/Resources/Java/lang-stride.jar:/Applications/BlueJ.app/Contents/Resources/Java/userlib/pi4j-core.jar:/Applications/BlueJ.app/Contents/Resources/Java/userlib/pi4j-gpio-extension.jar:/Applications/BlueJ.app/Contents/Resources/Java/userlib/pi4j-service.jar:/Applications/BlueJ.app/Contents/Resources/Java/userlib/pi4j-device.jar:/Users/spencer/Documents/BlueJ/Chapter4/Ch4BankExamples
+-d
+/Users/spencer/Documents/BlueJ/Chapter4/Ch4BankExamples/doc
+-encoding
+windows-1252
+-charset
+windows-1252
+/Users/spencer/Documents/BlueJ/Chapter4/Ch4BankExamples/BankingTesterAfterExercise2.java
+<---- end of javadoc command ---->
+Loading source file /Users/spencer/Documents/BlueJ/Chapter4/Ch4BankExamples/BankingTesterAfterExercise2.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_131
+Building tree for all the packages and classes...
+Generating /Users/spencer/Documents/BlueJ/Chapter4/Ch4BankExamples/doc/BankingTesterAfterExercise2.html...
+/Users/spencer/Documents/BlueJ/Chapter4/Ch4BankExamples/BankingTesterAfterExercise2.java:24: warning - @Cullen is an unknown tag.
+/Users/spencer/Documents/BlueJ/Chapter4/Ch4BankExamples/BankingTesterAfterExercise2.java:24: warning - @October is an unknown tag.
+Generating /Users/spencer/Documents/BlueJ/Chapter4/Ch4BankExamples/doc/package-frame.html...
+Generating /Users/spencer/Documents/BlueJ/Chapter4/Ch4BankExamples/doc/package-summary.html...
+Generating /Users/spencer/Documents/BlueJ/Chapter4/Ch4BankExamples/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /Users/spencer/Documents/BlueJ/Chapter4/Ch4BankExamples/doc/allclasses-frame.html...
+Generating /Users/spencer/Documents/BlueJ/Chapter4/Ch4BankExamples/doc/allclasses-noframe.html...
+Generating /Users/spencer/Documents/BlueJ/Chapter4/Ch4BankExamples/doc/index.html...
+2 warnings
