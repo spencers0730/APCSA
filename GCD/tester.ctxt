@@ -1,7 +1,9 @@
 #BlueJ class context
-comment0.target=tester
-comment1.params=start\ last
-comment1.target=void\ tester(int,\ int)
-comment2.params=lines\ index
-comment2.target=void\ write(java.lang.String[],\ int)
-numComments=3
+comment0.target=Tester
+comment1.params=f
+comment1.target=Tester(java.lang.String)
+comment2.params=start\ last
+comment2.target=void\ run(int,\ int)
+comment3.params=lines\ index
+comment3.target=void\ write(java.lang.String[],\ int)
+numComments=4

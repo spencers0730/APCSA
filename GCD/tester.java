@@ -1,15 +1,16 @@
 import java.io.*;
 import java.util.*;
 
-    public class tester{
+    public class Tester{
         
         int fileNum = 0;
-        final String fileorigin = "C:\\Users\\Spencer\\Documents\\BlueJ\\GCD\\output\\"; 
+        final String fileorigin; 
+        Tester(String f){
+            fileorigin = f;
+        }
         
-        public void tester(int start, int last) throws IOException
-        {
-            fileNum = 0;
-            
+        void run(int start, int last) throws IOException
+        {            
             int size = last - start + 1;
             int maxArr = 1000000;
             int arrSize = (size * size / 2); 

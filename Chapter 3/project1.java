@@ -33,10 +33,6 @@ public class project1
                         }
                         else endOfNumSubString = false;
                         addedNumber = true;
-                        
-                        if(current == '/'){
-                            run = false;
-                        }
                     }
                     if(time == 1 && numberToAdd != ""){
                         typedNumbers[numberIndex] = new Scanner(numberToAdd).nextInt();
@@ -55,6 +51,9 @@ public class project1
             if(typedNumbers.length != 0){
                 sum /= typedNumbers.length;
                 System.out.println(sum);
+            }
+            if(typedNumbers.length == 1 && typedNumbers[0] == 0){
+                run = false;
             }
             
         }

@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class project15{
     public static void main(){
         Scanner scan = new Scanner(System.in);
@@ -41,7 +40,6 @@ public class project15{
             count[num]++;
 
             System.out.print(num + " ");
-            wait(1000);
         }
    
         for(int i = 0; i < count.length; i++){
@@ -61,23 +59,13 @@ public class project15{
             default:
             output += "Oh no!\n0 Credits!";
         }
-        wait(500);
+
         System.out.println(output);
         return credits;
     }
 
     static void printCredits(int credits){
         String plural = (credits == 1) ? "s" : "";
-        System.out.println("You have " + credits + plural + " credits.");
+        System.out.println("You have " + credits + " credit" + plural + ".");
     }
-
-    static void wait(int millis){
-        try {
-            Thread.sleep(millis);
-        } 
-        catch(InterruptedException e)  {
-            Thread.currentThread().interrupt();
-        }
-    }
-
 }
