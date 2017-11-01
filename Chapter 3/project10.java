@@ -7,10 +7,10 @@ public class project10{
         while(run){
             int number = (int)(Math.random() * 100 + 1);
             int guess = 0;
+            System.out.println("Guess the number (1 - 100):");
             while(number != guess && run){
-                System.out.println("Guess the number (1 - 100):");
                 guess = scan.nextInt();
-                run = guess != 0;
+                run = !(guess < 1 || guess > 100);
                 if(run){
                     String output = "That number is ";
                     if(guess == number){
@@ -25,7 +25,7 @@ public class project10{
                 }
             }
             System.out.println("You want to play again?");
-            run = Character.toLowerCase(scan.nextLine().charAt(0)) == 'y';
+            run = Character.toLowerCase(scan.next().charAt(0)) == 'y';
         }
     }
 }

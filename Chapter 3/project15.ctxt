@@ -6,6 +6,4 @@ comment2.params=credits
 comment2.target=int\ iterate(int)
 comment3.params=credits
 comment3.target=void\ printCredits(int)
-comment4.params=millis
-comment4.target=void\ wait(int)
-numComments=5
+numComments=4

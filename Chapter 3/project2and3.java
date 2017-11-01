@@ -4,9 +4,9 @@ public class project2and3{
 
     public static void main(){
         Scanner scan = new Scanner(System.in);
+        System.out.print("");
         boolean run = true;
         while(run && scan.hasNext()){
-            System.out.println();
             int year = scan.nextInt();
             run = year != 0;
             if(run){
