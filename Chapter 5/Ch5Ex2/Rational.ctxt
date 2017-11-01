@@ -1,14 +1,17 @@
 #BlueJ class context
-comment0.params=numer\ denom
-comment0.target=Rational(int,\ int)
-comment1.params=obj
-comment1.target=int\ compareTo(java.lang.Object)
+comment0.target=Rational
+comment1.params=numer\ denom
+comment1.target=Rational(int,\ int)
 comment10.params=
 comment10.target=java.lang.String\ toString()
 comment11.params=
 comment11.target=void\ reduce()
 comment12.params=num1\ num2
 comment12.target=int\ gcd(int,\ int)
+comment13.params=
+comment13.target=double\ val()
+comment14.params=other
+comment14.target=int\ compareTo(Rational)
 comment2.params=
 comment2.target=int\ getNumerator()
 comment3.params=
@@ -25,4 +28,4 @@ comment8.params=op2
 comment8.target=Rational\ divide(Rational)
 comment9.params=op2
 comment9.target=boolean\ equals(Rational)
-numComments=13
+numComments=15

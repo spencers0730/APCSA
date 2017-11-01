@@ -7,5 +7,11 @@
  */
 public interface Lockable
 {
+    public void setKey(int key);
     
+    public void lock(int newKey);
+    
+    public void unlock(int checkKey);
+    
+    public boolean locked();
 }

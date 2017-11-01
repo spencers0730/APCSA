@@ -1,2 +1,12 @@
 #BlueJ class context
-numComments=0
+comment0.target=Lockable
+comment0.text=\n\ Write\ a\ description\ of\ interface\ Lockable\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=key
+comment1.target=void\ setKey(int)
+comment2.params=newKey
+comment2.target=void\ lock(int)
+comment3.params=checkKey
+comment3.target=void\ unlock(int)
+comment4.params=
+comment4.target=boolean\ locked()
+numComments=5

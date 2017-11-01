@@ -1,27 +1,6 @@
 #BlueJ package file
-<<<<<<< HEAD
 editor.fx.0.height=0
 editor.fx.0.width=0
-=======
-<<<<<<< HEAD
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-objectbench.height=98
-objectbench.width=556
-package.divider.horizontal=0.6002132196162047
-package.divider.vertical=0.7651006711409396
-package.editor.height=335
-package.editor.width=844
-package.editor.x=953
-package.editor.y=0
-package.frame.height=547
-package.frame.width=974
-=======
-editor.fx.0.height=876
-editor.fx.0.width=1440
->>>>>>> refs/remotes/origin/master
 editor.fx.0.x=0
 editor.fx.0.y=0
 objectbench.height=101
@@ -34,7 +13,6 @@ package.editor.x=719
 package.editor.y=23
 package.frame.height=438
 package.frame.width=720
->>>>>>> 4dfed71c2bbb9deee9ad9b9cf3daa592f39ca3d5
 package.numDependencies=0
 package.numTargets=12
 package.showExtends=true
@@ -110,21 +88,21 @@ target5.width=110
 target5.x=160
 target5.y=10
 target6.height=50
-target6.name=palindrome
+target6.name=project10
 target6.showInterface=false
 target6.type=ClassTarget
 target6.typeParameters=
-target6.width=100
-target6.x=356
-target6.y=204
+target6.width=80
+target6.x=460
+target6.y=10
 target7.height=50
-target7.name=project10
+target7.name=palindrome
 target7.showInterface=false
 target7.type=ClassTarget
 target7.typeParameters=
-target7.width=80
-target7.x=460
-target7.y=10
+target7.width=90
+target7.x=356
+target7.y=204
 target8.height=50
 target8.name=project13
 target8.showInterface=false

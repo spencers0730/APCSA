@@ -1,10 +1,19 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Coin()
+comment0.target=Coin
 comment1.params=
-comment1.target=void\ flip()
+comment1.target=Coin()
 comment2.params=
-comment2.target=boolean\ isHeads()
+comment2.target=void\ flip()
 comment3.params=
-comment3.target=java.lang.String\ toString()
-numComments=4
+comment3.target=boolean\ isHeads()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=newKey
+comment5.target=void\ setKey(int)
+comment6.params=tryKey
+comment6.target=void\ lock(int)
+comment7.params=tryKey
+comment7.target=void\ unlock(int)
+comment8.params=
+comment8.target=boolean\ locked()
+numComments=9
