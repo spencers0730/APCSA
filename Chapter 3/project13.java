@@ -31,7 +31,8 @@ public class project13{
             }
             String out = "There are "; 
             for(int i = 0; i < vowels.length; i++){
-                out += vowels[i] + " " + vowelsStr[i] + ((i == vowels.length - 1) ? "." : ", ");
+                // if(vowels[i] != 0)
+                    out += vowels[i] + " " + vowelsStr[i] + ((i == vowels.length - 1) ? "." : ", ");
             }
             System.out.println(out);
         }
