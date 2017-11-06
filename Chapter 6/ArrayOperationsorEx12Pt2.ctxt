@@ -7,5 +7,5 @@ comment2.target=int\ rowSum(int[][],\ int)
 comment3.params=a\ x
 comment3.target=int\ columnSum(int[][],\ int)
 comment4.params=a
-comment4.target=int\ allRowSum(int[][])
+comment4.target=int[]\ allRowSums(int[][])
 numComments=5

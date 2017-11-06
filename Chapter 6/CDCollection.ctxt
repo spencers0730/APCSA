@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=CDCollection
+comment1.params=
+comment1.target=CDCollection()
+comment2.params=title\ artist\ cost\ tracks
+comment2.target=void\ addCD(java.lang.String,\ java.lang.String,\ double,\ int)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=void\ increaseSize()
+numComments=5

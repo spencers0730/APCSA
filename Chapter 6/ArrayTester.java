@@ -13,11 +13,11 @@ public class ArrayTester
         
         printarray(practice);
         
-        System.out.println("The largest value in the array is "+ArrayOperations.max(practice));
-        System.out.println("\nThe sum of the elements in row 0 is "+ArrayOperations.rowSum(practice, 0));
-        System.out.println("\nThe sum of the elements in row 3 is "+ArrayOperations.rowSum(practice, 3));
-        System.out.println("\nThe sum of the elements in column 1 is "+ArrayOperations.columnSum(practice, 1));
-        int[] sums=ArrayOperations.allRowSums(practice);
+        System.out.println("The largest value in the array is "+ArrayOperationsorEx12Pt2.max(practice));
+        System.out.println("\nThe sum of the elements in row 0 is "+ArrayOperationsorEx12Pt2.rowSum(practice, 0));
+        System.out.println("\nThe sum of the elements in row 3 is "+ArrayOperationsorEx12Pt2.rowSum(practice, 3));
+        System.out.println("\nThe sum of the elements in column 1 is "+ArrayOperationsorEx12Pt2.columnSum(practice, 1));
+        int[] sums=ArrayOperationsorEx12Pt2.allRowSums(practice);
         System.out.println("\nThe sum of each row of the array is as follows ");
         for(int i=0;i<sums.length;i++)
         System.out.print(""+sums[i]+"\t");

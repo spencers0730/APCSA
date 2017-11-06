@@ -28,14 +28,12 @@ public class ArrayOperationsorEx12Pt2{
         return sum;
     }
     
-    public static int allRowSum(int[][] a){
-        if(a.length == 0 || a[0].length == 0) return 0;
-        int sum = 0;
+    public static int[] allRowSums(int[][] a){
+        if(a.length == 0 || a[0].length == 0) return new int[]{};
+        int[] sums = new int[a.length];
         for(int i = 0; i < a.length; i++){
-            for(int j = 0; j < a[0].length; j++){
-               sum += a[i][j];
-            }
+            sums[i] = rowSum(a, i);
         }
-        return sum;
+        return sums;
     }
 }
