@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ArrayOperationsorEx12Pt2
+comment1.params=a
+comment1.target=int\ max(int[][])
+comment2.params=a\ x
+comment2.target=int\ rowSum(int[][],\ int)
+comment3.params=a\ x
+comment3.target=int\ columnSum(int[][],\ int)
+comment4.params=a
+comment4.target=int\ allRowSum(int[][])
+numComments=5

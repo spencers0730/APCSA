@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Ex4and5
+comment1.params=
+comment1.target=void\ main()
+comment2.params=n\ str
+comment2.target=java.lang.String\ repeat(int,\ java.lang.String)
+numComments=3
