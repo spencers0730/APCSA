@@ -2,4 +2,6 @@
 comment0.target=ShortAnswer6
 comment1.params=a\ b
 comment1.target=void\ switchThem(int[],\ int[])
-numComments=2
+comment2.params=f\ t
+comment2.target=void\ switchTo(int[],\ int[])
+numComments=3

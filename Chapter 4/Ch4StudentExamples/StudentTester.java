@@ -59,7 +59,7 @@ public class StudentTester
       Student john = new Student("John","Gomez",jHome,school);
       
       Address mHome = new Address("123 Main Street","Euclid","OH",44132);
-      Student marsha = new Student("Marsha","Jones",mHome,school,95,85);
+      Student marsha = new Student("Marsha","Jones",mHome,school,95, 85);
       
       Address vHome = new Address("456 Juniper Street","Cedarburg","WI",53012);
       Student vincent = new Student("Vincent","Ruckert",vHome,school,100,98,96);

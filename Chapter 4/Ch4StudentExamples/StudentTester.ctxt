@@ -1,4 +1,6 @@
 #BlueJ class context
-comment0.params=
-comment0.target=void\ main()
-numComments=1
+comment0.target=StudentTester
+comment0.text=\n\ Here\ is\ the\ output\ you\ should\ get\:\n\ \n\ Original\ Data\:\ \n\nJohn\ Gomez\nHome\ Address\:\n21\ Jump\ Street\nLynchburg,\ VA\ \ 24551\nSchool\ Address\:\n800\ Lancaster\ Ave.\nVillanova,\ PA\ \ 19085\nTest\ Scores\ 0\ 0\ 0\nAverage\ of\ test\ scores\:\ 0.0\n\nMarsha\ Jones\nHome\ Address\:\n123\ Main\ Street\nEuclid,\ OH\ \ 44132\nSchool\ Address\:\n800\ Lancaster\ Ave.\nVillanova,\ PA\ \ 19085\nTest\ Scores\ 95\ 85\ 0\nAverage\ of\ test\ scores\:\ 60.0\n\nVincent\ Ruckert\nHome\ Address\:\n456\ Juniper\ Street\nCedarburg,\ WI\ \ 53012\nSchool\ Address\:\n800\ Lancaster\ Ave.\nVillanova,\ PA\ \ 19085\nTest\ Scores\ 100\ 98\ 96\nAverage\ of\ test\ scores\:\ 98.0\n\nMarsha's\ second\ test\ was\ a\ 85.\n\nWith\ John's\ new\ scores\ added\ in,\ here\ is\ his\ updated\ information\:\ \nJohn\ Gomez\nHome\ Address\:\n21\ Jump\ Street\nLynchburg,\ VA\ \ 24551\nSchool\ Address\:\n800\ Lancaster\ Ave.\nVillanova,\ PA\ \ 19085\nTest\ Scores\ 75\ 97\ 0\nAverage\ of\ test\ scores\:\ 57.333333333333336\n\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ main()
+numComments=2
