@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Life_Simulaion
+comment1.params=s
+comment1.target=void\ main(java.lang.String[])
+comment2.params=board
+comment2.target=boolean[][]\ nextGen(boolean[][])
+comment3.params=board
+comment3.target=void\ printBoard(boolean[][])
+numComments=4
