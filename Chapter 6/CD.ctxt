@@ -1,6 +1,9 @@
 #BlueJ class context
-comment0.params=name\ singer\ price\ numTracks
-comment0.target=CD(java.lang.String,\ java.lang.String,\ double,\ int)
-comment1.params=
-comment1.target=java.lang.String\ toString()
-numComments=2
+comment0.target=CD
+comment1.params=name\ singer\ price\ numTracks
+comment1.target=CD(java.lang.String,\ java.lang.String,\ double,\ int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=other
+comment3.target=int\ compareTo(java.lang.Object)
+numComments=4

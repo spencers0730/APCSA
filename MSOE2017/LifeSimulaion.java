@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class Life_Simulaion
+public class LifeSimulaion
 {
     static final boolean ALIVE = true;
     static final boolean DEAD = false;

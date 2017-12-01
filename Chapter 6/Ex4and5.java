@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Ex4and5 {
-    static final int perChar = 5;
+    static final int perChar = 1;
     public static void main() {
         int[] nums = new int[10];
         boolean run = true;

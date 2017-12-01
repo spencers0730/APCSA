@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class PI{
+public class PiCalc{
     public static void main(String[] s){
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a number to approximate Pi:");

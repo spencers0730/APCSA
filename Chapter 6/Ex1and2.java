@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class Ex1and2 {
-    static final int minRange = -5;
-    static final int maxRange = 5;
+    static final int minRange = 0;
+    static final int maxRange = 10;
     public static void main() {
         int[] nums = new int[maxRange - minRange + 1];
         boolean run = true;
@@ -15,7 +15,7 @@ public class Ex1and2 {
             run = scan.next().charAt(0) == 'y';
         }
         for(int i = 0; i < nums.length; i++){
-            System.out.println(i + minRange + " : " + nums[i]);
+            System.out.println(i + minRange + "\t:\t" + nums[i]);
         }
     }
 }

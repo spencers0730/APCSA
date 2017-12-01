@@ -5,7 +5,7 @@ import java.util.*;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class psi1
+public class Dedekind_Psi
 {
     public static void main(String[] s)
     {
