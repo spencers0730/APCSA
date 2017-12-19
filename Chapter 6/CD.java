@@ -32,7 +32,7 @@ public class CD implements Comparable {
         String description;
 
         description = fmt.format(cost) + "\t" + tracks + "\t"
-                        + title + "\t" + artist;
+        + title + "\t" + artist;
 
         return description;
     }
@@ -40,8 +40,8 @@ public class CD implements Comparable {
     public int compareTo(Object other){
         CD cd = (CD) other;
         int[] comp = new int[4];
-        comp[1] = title.compareTo(cd.title);
         comp[0] = artist.compareTo(cd.artist);
+        comp[1] = title.compareTo(cd.title);
         comp[2] = new Double(cost).compareTo(new Double(cd.cost));
         comp[3] = - new Integer(tracks).compareTo(new Integer(tracks));
         for(int i : comp)

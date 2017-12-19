@@ -35,11 +35,6 @@ public class InterTri{
             double internalArea = area(intersections);
             double ratio = internalArea / totalArea;
 
-            // for(int i = 0; i < 3; i++){
-                // System.out.println(outside[i].name + " " + midpoints[i].name + 
-                    // " " + sectors[i].name + " " + intersections[i].name);
-            // }
-
             System.out.println("total area " + totalArea + 
                 "\ninternal area " + internalArea + "\nratio " + ratio);
         }

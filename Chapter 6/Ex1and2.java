@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class Ex1and2 {
-    static final int minRange = 0;
-    static final int maxRange = 10;
+    static final int minRange = -5;
+    static final int maxRange = 5;
     public static void main() {
         int[] nums = new int[maxRange - minRange + 1];
         boolean run = true;
