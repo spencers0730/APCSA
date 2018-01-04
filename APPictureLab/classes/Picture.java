@@ -277,15 +277,15 @@ public class Picture extends SimplePicture
                 pixels[i][j].setColor(pixels[i][pixels[i].length - j - 1].getColor());
             }
     }
-    
-     public void mirrorHorizontal(){
+
+    public void mirrorHorizontal(){
         Pixel[][] pixels = this.getPixels2D();
         for(int i = 0; i < pixels.length / 2; i++)
             for(int j = 0; j < pixels[i].length; j++){
                 pixels[pixels.length - i - 1][j].setColor(pixels[i][j].getColor());
             }
     }
-    
+
     public void mirrorHorizontalBotToTop(){
         Pixel[][] pixels = this.getPixels2D();
         for(int i = 0; i < pixels.length / 2; i++)
@@ -293,14 +293,19 @@ public class Picture extends SimplePicture
                 pixels[i][j].setColor(pixels[pixels.length - i - 1][j].getColor());
             }
     }
-    
+
     public void mirrorDiagonal(){
         Pixel[][] pixels = this.getPixels2D();
-        for(int i = 0; i < pixels.length; i++){
-            for(int j = 0; j < ((float)(i) / (pixels.length - 1)) * pixels[i].length; j++){
-                System.out.println(i +"," + j);
-                // pixels[i][j].setColor(Color.WHITE);
-                pixels[j / pixels[i].length * pixels.length][i / pixels.length * pixels[i].length].setColor(pixels[i][j].getColor());
+        // for(int i = 0; i < pixels.length; i++){
+        // for(int j = 0; j < ((float)(i) / (pixels.length - 1)) * pixels[i].length; j++){
+        // pixels[j / pixels[i].length * pixels.length][i / pixels.length * pixels[i].length].setColor(pixels[i][j].getColor());
+        // }
+        // }
+        for(int i = 0; i < pixels[0].length - 1; i++){
+            for(int j = 0; j < i; j++){
+                pixels[j]
+                [i].setColor(
+                    pixels[i][j].getColor());
             }
         }
     }
