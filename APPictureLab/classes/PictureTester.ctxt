@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #BlueJ class context
 comment0.target=PictureTester
 comment0.text=\r\n\ This\ class\ contains\ class\ (static)\ methods\r\n\ that\ will\ help\ you\ test\ the\ Picture\ class\ \r\n\ methods.\ \ Uncomment\ the\ methods\ and\ the\ code\r\n\ in\ the\ main\ to\ test.\r\n\ \r\n\ @author\ Barbara\ Ericson\ \r\n
@@ -22,3 +23,43 @@ comment7.params=args
 comment7.target=void\ main(java.lang.String[])
 comment7.text=\ Main\ method\ for\ testing.\ \ Every\ class\ can\ have\ a\ main\r\nmethod\ in\ Java
 numComments=8
+=======
+#BlueJ class context
+comment0.target=PictureTester
+comment0.text=\n\ This\ class\ contains\ class\ (static)\ methods\n\ that\ will\ help\ you\ test\ the\ Picture\ class\ \n\ methods.\ \ Uncomment\ the\ methods\ and\ the\ code\n\ in\ the\ main\ to\ test.\n\ \n\ @author\ Barbara\ Ericson\ \n
+comment1.params=
+comment1.target=void\ testZeroBlue()
+comment1.text=Method\ to\ test\ zeroBlue
+comment10.params=
+comment10.target=void\ testMirrorVerticalRightToLeft()
+comment11.params=
+comment11.target=void\ testMirrorHorizontal()
+comment12.params=
+comment12.target=void\ testMirrorHorizontalBotToTop()
+comment13.params=
+comment13.target=void\ testMirrorDiagonal()
+comment14.params=args
+comment14.target=void\ main(java.lang.String[])
+comment14.text=\ Main\ method\ for\ testing.\ \ Every\ class\ can\ have\ a\ main\nmethod\ in\ Java
+comment2.params=
+comment2.target=void\ testNegative()
+comment3.params=
+comment3.target=void\ testMirrorVertical()
+comment3.text=Method\ to\ test\ mirrorVertical
+comment4.params=
+comment4.target=void\ testMirrorTemple()
+comment4.text=Method\ to\ test\ mirrorTemple
+comment5.params=
+comment5.target=void\ testCollage()
+comment5.text=Method\ to\ test\ the\ collage\ method
+comment6.params=
+comment6.target=void\ testEdgeDetection()
+comment6.text=Method\ to\ test\ edgeDetection
+comment7.params=
+comment7.target=void\ testKeepOnlyBlue()
+comment8.params=
+comment8.target=void\ testNegate()
+comment9.params=
+comment9.target=void\ testGrayscale()
+numComments=15
+>>>>>>> 285f74bd628bda55b3856f1f2a4feb4d8e661a78
