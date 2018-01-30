@@ -300,6 +300,7 @@ public class Picture extends SimplePicture
 
     public void mirrorDiagonal(){
         Pixel[][] pixels = this.getPixels2D();
+<<<<<<< HEAD
         float m = (float)(pixels.length) / pixels[0].length; 
         float n = 1 / m;
         int c = 0;
@@ -307,6 +308,12 @@ public class Picture extends SimplePicture
             for(float j = 0; j <= i / m; j += m){
                 pixels[(int)(j * m)][(int)(i * n)].setColor(pixels[(int)i][(int)j].getColor());
                 c++;
+=======
+        float m = (float)(pixels[0].length) / pixels.length;
+        for(float i = 0; i < pixels.length; i+=1/m){
+            for(float j = 0; j < i * m - 1; j+=1/m){
+                pixels[(int)(j / m)][(int)(i * m)].setColor( pixels[(int)i][(int)j].getColor());
+>>>>>>> 002db79d5e7f52b68d63980c21ee5788ccf310c5
             }
         }
         System.out.println(c + " "+ m +  " " + (pixels.length * pixels[0].length / 2));
