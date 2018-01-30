@@ -211,18 +211,22 @@ public class Picture extends SimplePicture
     {
         Pixel leftPixel = null;
         Pixel rightPixel = null;
+        Pixel botPixel = null;
         Pixel[][] pixels = this.getPixels2D();
         Color rightColor = null;
-        for (int row = 0; row < pixels.length; row++)
+        Color botColor = null;
+        for (int row = 0; row < pixels.length - 1; row++)
         {
             for (int col = 0; 
             col < pixels[0].length-1; col++)
             {
                 leftPixel = pixels[row][col];
                 rightPixel = pixels[row][col+1];
+                botPixel = pixels[row + 1][col];
                 rightColor = rightPixel.getColor();
+                botColor = botPixel.getColor();
                 if (leftPixel.colorDistance(rightColor) > 
-                edgeDist)
+                edgeDist && leftPixel.colorDistance(botColor) > edgeDist)
                     leftPixel.setColor(Color.BLACK);
                 else
                     leftPixel.setColor(Color.WHITE);
@@ -296,18 +300,16 @@ public class Picture extends SimplePicture
 
     public void mirrorDiagonal(){
         Pixel[][] pixels = this.getPixels2D();
-        // for(int i = 0; i < pixels.length; i++){
-        // for(int j = 0; j < ((float)(i) / (pixels.length - 1)) * pixels[i].length; j++){
-        // pixels[j / pixels[i].length * pixels.length][i / pixels.length * pixels[i].length].setColor(pixels[i][j].getColor());
-        // }
-        // }
-        for(int i = 0; i < pixels[0].length - 1; i++){
-            for(int j = 0; j < i; j++){
-                pixels[j]
-                [i].setColor(
-                    pixels[i][j].getColor());
+        float m = (float)(pixels.length) / pixels[0].length; 
+        float n = 1 / m;
+        int c = 0;
+        for(float i = 0; i <= pixels.length; i += n){
+            for(float j = 0; j <= i / m; j += m){
+                pixels[(int)(j * m)][(int)(i * n)].setColor(pixels[(int)i][(int)j].getColor());
+                c++;
             }
         }
+        System.out.println(c + " "+ m +  " " + (pixels.length * pixels[0].length / 2));
     }
 
     /* Main method for testing - each class in Java can have a main 
