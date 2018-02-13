@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Shapes
+comment1.params=
+comment1.target=void\ makeVisible()
+comment2.params=
+comment2.target=void\ makeInvisible()
+comment3.params=
+comment3.target=void\ moveLeftOne()
+comment4.params=
+comment4.target=void\ moveRightOne()
+comment5.params=
+comment5.target=void\ moveUpOne()
+comment6.params=
+comment6.target=void\ moveDownOne()
+comment7.params=x
+comment7.target=void\ moveHorizontal(int)
+comment8.params=s
+comment8.target=void\ changeSize(int)
+numComments=9
