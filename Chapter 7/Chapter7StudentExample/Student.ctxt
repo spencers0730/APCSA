@@ -1,8 +1,11 @@
 #BlueJ class context
-comment0.params=studentName\ courses
-comment0.target=Student(java.lang.String,\ int)
-comment1.params=
-comment1.target=java.lang.String\ toString()
+comment0.target=Student
+comment1.params=studentName\ courses
+comment1.target=Student(java.lang.String,\ int)
 comment2.params=
-comment2.target=int\ getCourses()
-numComments=3
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=int\ getCourses()
+comment4.params=o
+comment4.target=boolean\ equals(java.lang.Object)
+numComments=5

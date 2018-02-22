@@ -14,4 +14,8 @@ public class StudentExchange extends Student
         super(name, courses);
         countryOfOrigin = country;
     }
+    
+    public String toString(){
+        return super.toString() + "\n" + "Country of Origin: " + countryOfOrigin; 
+    }
 }

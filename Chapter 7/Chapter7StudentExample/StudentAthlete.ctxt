@@ -1,6 +1,7 @@
 #BlueJ class context
-comment0.params=studentName\ courses\ sportName
-comment0.target=StudentAthlete(java.lang.String,\ int,\ java.lang.String)
-comment1.params=
-comment1.target=java.lang.String\ toString()
-numComments=2
+comment0.target=StudentAthlete
+comment1.params=studentName\ courses\ sportName
+comment1.target=StudentAthlete(java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3
