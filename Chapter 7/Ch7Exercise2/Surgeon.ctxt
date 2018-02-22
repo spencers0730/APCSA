@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Surgeon
+comment1.params=name\ number\ speciality\ operating
+comment1.target=Surgeon(java.lang.String,\ int,\ java.lang.String,\ boolean)
+comment2.params=operating
+comment2.target=void\ setOperating(boolean)
+comment3.params=
+comment3.target=boolean\ getOperating()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=void\ operate()
+numComments=6

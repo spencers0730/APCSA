@@ -1,11 +1,5 @@
 
-/**
- * Write a description of class Tester1 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
-public class Tester1
+public class Tester
 {
    public static void main()
    {

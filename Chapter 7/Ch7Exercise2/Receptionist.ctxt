@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Receptionist
+comment1.params=name\ number\ department\ answering
+comment1.target=Receptionist(java.lang.String,\ int,\ java.lang.String,\ boolean)
+comment2.params=answering
+comment2.target=void\ setIsAnswering(boolean)
+comment3.params=
+comment3.target=boolean\ getIsAnswering()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=void\ answer()
+numComments=6

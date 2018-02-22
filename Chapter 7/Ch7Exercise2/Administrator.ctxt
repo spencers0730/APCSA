@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Administrator
+comment1.params=name\ number\ department
+comment1.target=Administrator(java.lang.String,\ int,\ java.lang.String)
+comment2.params=department
+comment2.target=void\ setDepartment(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getDepartment()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=java.lang.String\ administrateString()
+comment6.params=
+comment6.target=void\ administrate()
+comment7.params=work\ is
+comment7.target=java.lang.String\ working(java.lang.String,\ boolean)
+numComments=8
