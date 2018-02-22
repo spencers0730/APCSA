@@ -43,7 +43,7 @@ public class CD implements Comparable {
         comp[0] = artist.compareTo(cd.artist);
         comp[1] = title.compareTo(cd.title);
         comp[2] = new Double(cost).compareTo(new Double(cd.cost));
-        comp[3] = - new Integer(tracks).compareTo(new Integer(tracks));
+        comp[3] = new Integer(tracks).compareTo(new Integer(tracks));
         for(int i : comp)
             if(i != 0) return i;
         return 0;
