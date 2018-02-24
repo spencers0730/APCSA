@@ -13,7 +13,7 @@ public class Staff
    //-----------------------------------------------------------------
    public Staff ()
    {
-      staffList = new StaffMember[6];
+      staffList = new StaffMember[7];
 
       staffList[0] = new Executive ("Elliot", "123 Main Line",
          "555-0469", "123-45-6789", 2423.07);
@@ -30,6 +30,9 @@ public class Staff
          "555-8374");
       staffList[5] = new Volunteer ("Carla", "321 Duds Lane",
          "555-7282");
+         
+         staffList[6] = new President("Donald", "1600 Pennsylvania Ave", "555-1234",
+         "345-87-2984", 500000);
 
       ((Executive)staffList[0]).awardBonus (500.00);
 
