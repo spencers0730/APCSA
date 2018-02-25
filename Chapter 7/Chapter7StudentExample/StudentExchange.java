@@ -1,3 +1,5 @@
+package Chapter7StudentExample;
+
 
 /**
  * Write a description of class StudentExchange here.

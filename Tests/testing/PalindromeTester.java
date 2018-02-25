@@ -1,3 +1,5 @@
+package testing;
+
 import java.util.Scanner;
 public class PalindromeTester{
     public static void main(){

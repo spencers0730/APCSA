@@ -1,3 +1,5 @@
+package Ch5Ex7;
+
 
 /**
  * Write a description of class Tester here.

@@ -1,3 +1,5 @@
+package Ch7Exercise2;
+
 public class Nurse extends HospitalEmployee{
     private int numPatients;
 

@@ -1,3 +1,5 @@
+package Ch7Exercise2;
+
 public class Surgeon extends Doctor{
     private boolean operating;
     

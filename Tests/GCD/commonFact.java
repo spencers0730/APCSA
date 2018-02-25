@@ -1,3 +1,5 @@
+package GCD;
+
 import java.util.*;
 
 public class commonFact

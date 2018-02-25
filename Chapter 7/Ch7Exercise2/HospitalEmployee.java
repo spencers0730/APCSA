@@ -1,3 +1,5 @@
+package Ch7Exercise2;
+
 public class HospitalEmployee{
     private String name;
     private int number;

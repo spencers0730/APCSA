@@ -1,8 +1,9 @@
 #BlueJ class context
-comment0.params=eName\ eAddress\ ePhone\ socSecNumber\ rate
-comment0.target=Executive(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ double)
-comment1.params=execBonus
-comment1.target=void\ awardBonus(double)
-comment2.params=
-comment2.target=double\ pay()
-numComments=3
+comment0.target=Executive
+comment1.params=eName\ eAddress\ ePhone\ socSecNumber\ rate
+comment1.target=Executive(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ double)
+comment2.params=execBonus
+comment2.target=void\ awardBonus(double)
+comment3.params=
+comment3.target=double\ pay()
+numComments=4

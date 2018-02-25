@@ -1,3 +1,5 @@
+package Ch4BankExamples;
+
 
 /**
  * Run this class after completing Exercise 4.2.

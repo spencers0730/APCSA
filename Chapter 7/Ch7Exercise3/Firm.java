@@ -1,3 +1,5 @@
+package Ch7Exercise3;
+
 //********************************************************************
 //  Firm.java       Author: Lewis/Loftus/Cocking
 //

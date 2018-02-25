@@ -1,3 +1,5 @@
+package Ch5Ex6;
+
 //********************************************************************
 //  Coin.java       Author: Lewis/Loftus/Cocking
 //

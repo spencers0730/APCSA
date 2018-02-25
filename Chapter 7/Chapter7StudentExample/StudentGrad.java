@@ -1,3 +1,5 @@
+package Chapter7StudentExample;
+
 
 public class StudentGrad extends Student
 {

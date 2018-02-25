@@ -1,3 +1,5 @@
+package Ch5Ex2;
+
 //********************************************************************
 //  Rational.java       Author: Lewis/Loftus/Cocking
 //

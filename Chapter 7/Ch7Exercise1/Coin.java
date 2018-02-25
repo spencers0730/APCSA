@@ -1,3 +1,5 @@
+package Ch7Exercise1;
+
 //********************************************************************
 //  Coin.java       Author: Lewis/Loftus/Cocking
 //

@@ -1,3 +1,5 @@
+package Ch7Exercise1;
+
 public class Tester
 {
     public static void main(){

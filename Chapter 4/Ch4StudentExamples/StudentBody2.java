@@ -1,3 +1,5 @@
+package Ch4StudentExamples;
+
 //********************************************************************
 //  StudentBody.java       Author: Lewis/Loftus/Cocking
 //

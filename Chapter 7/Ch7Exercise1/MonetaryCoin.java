@@ -1,3 +1,5 @@
+package Ch7Exercise1;
+
 public class MonetaryCoin extends Coin
 {
     private int value;
