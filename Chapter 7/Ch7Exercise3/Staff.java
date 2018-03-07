@@ -1,3 +1,5 @@
+package Ch7Exercise3;
+
 //********************************************************************
 //  Staff.java       Author: Lewis/Loftus/Cocking
 //

@@ -1,3 +1,5 @@
+package Ch4RationalNumbers;
+
 import java.util.*;
 public class Fractions{
     public static void main(){

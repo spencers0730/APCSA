@@ -1,3 +1,5 @@
+package GCD;
+
 import java.io.*;
 import java.util.*;
 

@@ -1,3 +1,5 @@
+package Ch4RationalNumbers;
+
 //********************************************************************
 //  Rational.java       Author: Lewis/Loftus/Cocking
 //

@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=InternalTriangle
-comment0.text=\n\ Write\ a\ description\ of\ class\ InternalTriangle\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ InternalTriangle\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=s
 comment1.target=void\ main(java.lang.String[])
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ InternalTriangle\n
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ InternalTriangle\r\n
 comment2.params=point1\ point2\ prop
 comment2.target=double[]\ newPoint(double[],\ double[],\ double)
 comment3.params=line1\ line2

@@ -1,3 +1,5 @@
+package Ch7Exercise3;
+
 //********************************************************************
 //  Employee.java       Author: Lewis/Loftus/Cocking
 //

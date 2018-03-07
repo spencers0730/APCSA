@@ -1,3 +1,5 @@
+package Ch7Exercise2;
+
 public class Janitor extends Administrator{
     private boolean sweeping;
 

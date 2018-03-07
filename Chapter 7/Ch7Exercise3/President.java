@@ -1,3 +1,5 @@
+package Ch7Exercise3;
+
 public class President extends Executive{
     private double stockOptions;
 

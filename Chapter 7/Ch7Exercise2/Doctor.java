@@ -1,3 +1,5 @@
+package Ch7Exercise2;
+
 public class Doctor extends HospitalEmployee{
     String speciality;
     

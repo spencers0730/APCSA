@@ -1,3 +1,5 @@
+package Ch5Ex2;
+
 //********************************************************************
 //  RationalNumbers.java       Author: Lewis/Loftus/Cocking
 //

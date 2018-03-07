@@ -1,3 +1,5 @@
+package shapes;
+
 public interface Shapes
 {
     public void makeVisible();

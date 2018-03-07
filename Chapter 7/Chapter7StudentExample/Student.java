@@ -1,3 +1,5 @@
+package Chapter7StudentExample;
+
 //********************************************************************
 //  Student.java       Author: Lewis/Loftus/Cocking
 //

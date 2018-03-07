@@ -1,3 +1,5 @@
+package Chapter7StudentExample;
+
 //********************************************************************
 //  StudentAthlete.java       Author: Lewis/Loftus/Cocking
 //

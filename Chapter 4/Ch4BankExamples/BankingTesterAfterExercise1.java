@@ -1,3 +1,5 @@
+package Ch4BankExamples;
+
 import java.text.NumberFormat;
 /**
  * After completing Exercise 4.1, run this tester class.

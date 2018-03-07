@@ -1,3 +1,5 @@
+package Ch7Exercise1;
+
 //********************************************************************
 //  FlipRace.java       Author: Lewis/Loftus/Cocking
 //
