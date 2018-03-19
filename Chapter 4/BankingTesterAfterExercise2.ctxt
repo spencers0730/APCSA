@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=BankingTesterAfterExercise2
+comment0.text=\n\ Run\ this\ class\ after\ completing\ Exercise\ 4.2.\n\ \n\ @Cullen\ \n\ @October\ 26,\ 2016\n\ \n\ Your\ output\ should\ be\ as\ follows\:\n\ \n\ Gomez\ balance\ after\ deposit\:\ 540.0\n\ Gomez\ balance\ after\ withdrawal\:\ 107.75\n\n\ Error\:\ Insufficient\ funds.\n\ Account\:\ 93757\n\ Requested\:\ $800.00\n\ Available\:\ $759.32\n\n\ 72354\ \ \ Ted\ Murphy\ \ $132.90\n\ 69713\ \ \ Anita\ Gomez\ $111.52\n\ 93757\ \ \ Sanchit\ Reddy\ \ \ $785.90\n\ 12345\ \ \ Michael\ Cullen\ \ $0.00\n\n
+comment1.params=
+comment1.target=void\ main()
+numComments=2

@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Address
-comment1.params=street\ town\ st\ zip
-comment1.target=Address(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
-comment2.params=
-comment2.target=java.lang.String\ toString()
-numComments=3
