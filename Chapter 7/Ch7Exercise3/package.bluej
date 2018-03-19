@@ -2,6 +2,7 @@
 dependency1.from=Staff
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 dependency1.to=StaffMember
 dependency1.type=UsesDependency
 dependency2.from=Staff
@@ -12,6 +13,18 @@ dependency3.to=Employee
 dependency3.type=UsesDependency
 dependency4.from=Staff
 dependency4.to=Hourly
+=======
+dependency1.to=Hourly
+dependency1.type=UsesDependency
+dependency2.from=Staff
+dependency2.to=Volunteer
+dependency2.type=UsesDependency
+dependency3.from=Staff
+dependency3.to=President
+dependency3.type=UsesDependency
+dependency4.from=Firm
+dependency4.to=Staff
+>>>>>>> parent of b3bcd94... chapter 8
 =======
 dependency1.to=Hourly
 dependency1.type=UsesDependency
@@ -49,9 +62,12 @@ dependency7.to=Staff
 dependency7.type=UsesDependency
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 objectbench.height=90
 objectbench.width=680
 =======
+=======
+>>>>>>> parent of b3bcd94... chapter 8
 =======
 >>>>>>> parent of b3bcd94... chapter 8
 editor.fx.0.height=0
@@ -109,6 +125,7 @@ target3.height=50
 target3.name=Employee
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 target3.naviview.expanded=true
 target3.showInterface=false
 target3.type=ClassTarget
@@ -151,6 +168,20 @@ target4.width=80
 target4.x=100
 target4.y=90
 >>>>>>> parent of b3bcd94... chapter 8
+=======
+target3.showInterface=false
+target3.type=ClassTarget
+target3.width=90
+target3.x=10
+target3.y=80
+target4.height=50
+target4.name=Executive
+target4.showInterface=false
+target4.type=ClassTarget
+target4.width=80
+target4.x=100
+target4.y=90
+>>>>>>> parent of b3bcd94... chapter 8
 target5.height=50
 target5.name=Volunteer
 target5.showInterface=false
@@ -158,8 +189,13 @@ target5.type=ClassTarget
 target5.width=90
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 target5.x=350
 target5.y=120
+=======
+target5.x=190
+target5.y=130
+>>>>>>> parent of b3bcd94... chapter 8
 =======
 target5.x=190
 target5.y=130
