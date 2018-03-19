@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Pascal
+comment1.params=r
+comment1.target=void\ row(int)
+comment2.params=r\ c
+comment2.target=int\ element(int,\ int)
+numComments=3
