@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=StudentExchange
+comment1.params=name\ courses\ country
+comment1.target=StudentExchange(java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3
