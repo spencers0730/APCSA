@@ -5,6 +5,7 @@ dependency1.type=UsesDependency
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 dependency2.from=Tester
 dependency2.to=Doctor
 dependency2.type=UsesDependency
@@ -48,6 +49,11 @@ objectbench.height=93
 objectbench.width=760
 package.divider.horizontal=0.6
 >>>>>>> parent of b3bcd94... chapter 8
+=======
+objectbench.height=93
+objectbench.width=760
+package.divider.horizontal=0.6
+>>>>>>> parent of b3bcd94... chapter 8
 package.divider.vertical=0.8
 package.editor.height=393
 package.editor.width=670
@@ -58,6 +64,9 @@ package.frame.width=800
 package.numDependencies=1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b3bcd94... chapter 8
+=======
 >>>>>>> parent of b3bcd94... chapter 8
 =======
 >>>>>>> parent of b3bcd94... chapter 8
@@ -86,8 +95,13 @@ target2.width=110
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 target2.x=760
 target2.y=10
+=======
+target2.x=110
+target2.y=90
+>>>>>>> parent of b3bcd94... chapter 8
 =======
 target2.x=110
 target2.y=90
@@ -108,6 +122,7 @@ target3.width=140
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 target3.x=500
 target3.y=10
 target4.height=40
@@ -123,6 +138,8 @@ target4.y=90
 >>>>>>> parent of b3bcd94... chapter 8
 =======
 >>>>>>> parent of b3bcd94... chapter 8
+=======
+>>>>>>> parent of b3bcd94... chapter 8
 target3.x=10
 target3.y=150
 target4.height=50
@@ -134,6 +151,9 @@ target4.x=140
 target4.y=150
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of b3bcd94... chapter 8
+=======
 >>>>>>> parent of b3bcd94... chapter 8
 =======
 >>>>>>> parent of b3bcd94... chapter 8
