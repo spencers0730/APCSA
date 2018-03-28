@@ -19,6 +19,9 @@ public class Tester
         //Queens
         System.out.println("\n\nNon-Attacking Queens (2):");
         Queens.nonAttacking(2);
+        
+        System.out.println("\nNon-Attacking Queens (7):");
+        Queens.nonAttacking(7);
 
         //Factorial
         System.out.println("\n\nFactorial: (0-9):");
